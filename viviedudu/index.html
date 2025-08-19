@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro: Cliente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <header class="header">
+      <button class="back-btn">←</button>
+      <h2>Cadastro: Cliente</h2>
+    </header>
+
+    <!-- Tabs -->
+    <nav class="tabs">
+      <button class="tab active">Cliente</button>
+      <button class="tab">Produto</button>
+      <button class="tab">Serviço</button>
+      <button class="tab">Fornecedor</button>
+    </nav>
+
+    <!-- Formulário -->
+    <form class="form">
+      <div class="form-row">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Telefone">
+        <input type="text" placeholder="CPF">
+      </div>
+
+      <div class="form-row">
+        <select>
+          <option>Estado</option>
+        </select>
+        <input type="text" placeholder="CEP">
+        <input type="text" placeholder="Cidade">
+      </div>
+
+      <div class="form-row">
+        <input type="text" placeholder="Complemento">
+        <input type="text" placeholder="Bairro">
+        <input type="text" placeholder="Rua">
+      </div>
+    </form>
+
+    <!-- Botões -->
+    <div class="buttons">
+      <button class="btn salvar">SALVAR</button>
+      <button class="btn deletar">Deletar</button>
+      <button class="btn listar">Listar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
